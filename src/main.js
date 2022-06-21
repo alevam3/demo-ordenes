@@ -1,7 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import * as moment from 'moment'
+import * as moment_ from 'moment'
+const moment = moment_;
 
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
